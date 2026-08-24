@@ -404,7 +404,7 @@ img {
   place-items: center;
 }
 
-.home__circle ::after{
+.home__circle::after{
   content: '';
   position: absolute;
   width: 100px;
@@ -429,18 +429,20 @@ img {
 .home__text{
   z-index: 10;
   color: var(--white-color);
-  font-size: var(--font-semi-bold) var(--smaller-font-size) var(--second-font);
+  font: var(--font-semi-bold) var(--smaller-font-size) var(--second-font);
   position: absolute;
-  width: 100%;
-  height: 100%;
+  /* Grow past the circle's padding box so the letters ride the border band.
+     Symmetric inset keeps the rotation center on the circle center. */
+  inset: -16px;
   animation: rotate-text 8s linear infinite;
+  will-change: transform;
 }
 
 .home__text span{
   position: absolute;
-  transform-origin: 0 46px;
-  left: 50px;
-  top: 50px;
+  inset: 0;
+  line-height: 1;
+  text-align: center;
 }
 
 .home__images .blob-big{
@@ -459,6 +461,12 @@ img {
 
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .home__text{
+    animation: none;
   }
 }
 
