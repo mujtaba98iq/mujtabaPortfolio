@@ -92,6 +92,10 @@ serviceButtons.forEach((button) =>{
             serviceCards.forEach(card => {
                card.classList.replace('service-open', 'service-close')
             })
+
+            if(!isOpen){
+               currentCard.classList.replace('service-close', 'service-open')
+            }
          })
       }) 
 
@@ -142,51 +146,7 @@ window.addEventListener('resize', () =>{
 /*=============== TESTIMONIALS OF DUPLICATE CARDS ===============*/ 
 
 
-/*=============== CONTACT EMAIL JS ===============*/
-/* Create an account at https://www.emailjs.com/ and replace
-   the three placeholders below with your own IDs */
-const EMAILJS_SERVICE_ID = 'service_id',
-      EMAILJS_TEMPLATE_ID = 'template_id',
-      EMAILJS_PUBLIC_KEY = 'public_key'
-
-const contactForm = document.getElementById('contact-form'),
-      contactStatus = document.getElementById('contact-status')
-
-const showStatus = (message, type) =>{
-   contactStatus.textContent = message
-   contactStatus.classList.remove('status-success', 'status-error')
-   contactStatus.classList.add(`status-${type}`)
-
-   // Remove the message after five seconds
-   setTimeout(() =>{
-      contactStatus.textContent = ''
-      contactStatus.classList.remove('status-success', 'status-error')
-   }, 5000)
-}
-
-const sendEmail = (e) =>{
-   e.preventDefault() // Prevent the page from reloading
-
-   const submitButton = contactForm.querySelector('.contact__button')
-   submitButton.disabled = true
-
-   // serviceID - templateID - #form - publicKey
-   emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, '#contact-form', EMAILJS_PUBLIC_KEY)
-      .then(() =>{
-         showStatus('Message sent successfully ✅', 'success')
-         contactForm.reset() // Clear input fields
-      })
-      .catch(() =>{
-         showStatus('Message not sent (service error) ❌', 'error')
-      })
-      .finally(() =>{
-         submitButton.disabled = false
-      })
-}
-
-if(contactForm){
-   contactForm.addEventListener('submit', sendEmail)
-}
+/*=============== CONTACT EMAIL JS ===============*/ 
 
 
 /*=============== SHOW SCROLL UP ===============*/ 
