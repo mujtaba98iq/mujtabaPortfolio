@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="550" viewBox="0 0 800 550" role="img" aria-label="Library management application showing a shelf of books and a catalogue">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="hsl(255, 13%, 11%)"/>
+      <stop offset="1" stop-color="hsl(255, 15%, 5%)"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(255, 75%, 60%)"/>
+      <stop offset="1" stop-color="hsl(255, 100%, 85%)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="hsl(255, 80%, 65%)" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="hsl(255, 80%, 65%)" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="hsl(255, 8%, 26%)" stroke-width="1" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="550" fill="url(#bg)"/>
+  <rect width="800" height="550" fill="url(#grid)"/>
+  <circle cx="720" cy="60" r="230" fill="url(#glow)"/>
+  <circle cx="80" cy="520" r="170" fill="url(#glow)" opacity="0.5"/>
+  <g font-family="Segoe UI, system-ui, sans-serif">
+    <rect x="40" y="38" width="250" height="34" rx="17" fill="hsl(255, 80%, 65%)" fill-opacity="0.12" stroke="hsl(255, 80%, 65%)" stroke-opacity="0.45"/>
+    <circle cx="60" cy="55" r="4" fill="url(#acc)"/>
+    <text x="74" y="60" font-size="14" font-weight="600" letter-spacing="1.6" fill="hsl(255, 100%, 88%)">LIBRARY MANAGEMENT</text>
+    <rect x="60" y="108" width="680" height="330" rx="20" fill="hsl(255, 10%, 13%)" stroke="hsl(255, 8%, 28%)" stroke-width="1.5"/>
+    <path d="M60 128a20 20 0 0 1 20-20h640a20 20 0 0 1 20 20v30H60z" fill="hsl(255, 10%, 17%)"/>
+    <g fill="hsl(255, 6%, 42%)"><circle cx="86" cy="133" r="5"/><circle cx="104" cy="133" r="5"/><circle cx="122" cy="133" r="5"/></g>
+    <rect x="150" y="124" width="230" height="18" rx="9" fill="hsl(255, 8%, 24%)"/>
+    <circle cx="166" cy="132" r="6" fill="none" stroke="hsl(255, 8%, 45%)" stroke-width="2"/>
+    <path d="M170 136l6 6" stroke="hsl(255, 8%, 45%)" stroke-width="2" stroke-linecap="round"/>
+    <rect x="90" y="186" width="320" height="180" rx="14" fill="hsl(255, 12%, 10%)"/>
+    <rect x="90" y="352" width="320" height="14" rx="6" fill="hsl(255, 8%, 24%)"/>
+    <rect x="112" y="202" width="22" height="150" rx="6" fill="url(#acc)" opacity="0.95"/>
+    <rect x="146" y="176" width="22" height="176" rx="6" fill="url(#acc)" opacity="0.55"/>
+    <rect x="180" y="220" width="22" height="132" rx="6" fill="url(#acc)" opacity="0.8"/>
+    <rect x="214" y="188" width="22" height="164" rx="6" fill="url(#acc)" opacity="0.4"/>
+    <rect x="248" y="166" width="22" height="186" rx="6" fill="url(#acc)" opacity="0.95"/>
+    <rect x="282" y="210" width="22" height="142" rx="6" fill="url(#acc)" opacity="0.6"/>
+    <rect x="316" y="182" width="22" height="170" rx="6" fill="url(#acc)" opacity="0.35"/>
+    <rect x="350" y="196" width="22" height="156" rx="6" fill="url(#acc)" opacity="0.8"/>
+    <rect x="384" y="224" width="22" height="128" rx="6" fill="url(#acc)" opacity="0.5"/>
+    <g fill="hsl(255, 10%, 16%)">
+      <rect x="440" y="186" width="270" height="52" rx="12"/>
+      <rect x="440" y="250" width="270" height="52" rx="12"/>
+      <rect x="440" y="314" width="270" height="52" rx="12"/>
+    </g>
+    <g fill="url(#acc)" opacity="0.85">
+      <rect x="458" y="200" width="24" height="24" rx="7"/>
+      <rect x="458" y="264" width="24" height="24" rx="7"/>
+      <rect x="458" y="328" width="24" height="24" rx="7"/>
+    </g>
+    <g fill="hsl(255, 8%, 32%)">
+      <rect x="496" y="200" width="140" height="9" rx="4.5"/>
+      <rect x="496" y="216" width="90" height="8" rx="4"/>
+      <rect x="496" y="264" width="120" height="9" rx="4.5"/>
+      <rect x="496" y="280" width="104" height="8" rx="4"/>
+      <rect x="496" y="328" width="150" height="9" rx="4.5"/>
+      <rect x="496" y="344" width="76" height="8" rx="4"/>
+    </g>
+    <g fill="url(#acc)" opacity="0.6">
+      <rect x="656" y="204" width="38" height="14" rx="7"/>
+      <rect x="656" y="268" width="38" height="14" rx="7"/>
+      <rect x="656" y="332" width="38" height="14" rx="7"/>
+    </g>
+    <text x="400" y="505" text-anchor="middle" font-size="16" letter-spacing="1.2" fill="hsl(255, 5%, 58%)">C# &#183; ADO.NET &#183; SQL Server</text>
+  </g>
+</svg>

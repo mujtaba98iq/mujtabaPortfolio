@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="550" viewBox="0 0 800 550" role="img" aria-label="Airline booking system microservices architecture diagram">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="hsl(255, 13%, 11%)"/>
+      <stop offset="1" stop-color="hsl(255, 15%, 5%)"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(255, 75%, 60%)"/>
+      <stop offset="1" stop-color="hsl(255, 100%, 85%)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="hsl(255, 80%, 65%)" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="hsl(255, 80%, 65%)" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="hsl(255, 8%, 26%)" stroke-width="1" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="550" fill="url(#bg)"/>
+  <rect width="800" height="550" fill="url(#grid)"/>
+  <circle cx="720" cy="60" r="230" fill="url(#glow)"/>
+  <circle cx="80" cy="520" r="170" fill="url(#glow)" opacity="0.5"/>
+  <g font-family="Segoe UI, system-ui, sans-serif">
+    <rect x="40" y="38" width="190" height="34" rx="17" fill="hsl(255, 80%, 65%)" fill-opacity="0.12" stroke="hsl(255, 80%, 65%)" stroke-opacity="0.45"/>
+    <circle cx="60" cy="55" r="4" fill="url(#acc)"/>
+    <text x="74" y="60" font-size="14" font-weight="600" letter-spacing="1.6" fill="hsl(255, 100%, 88%)">MICROSERVICES</text>
+    <g stroke="hsl(255, 80%, 65%)" stroke-opacity="0.5" stroke-width="2" fill="none">
+      <path d="M250 172 L322 262"/>
+      <path d="M550 172 L478 262"/>
+      <path d="M250 402 L322 312"/>
+      <path d="M550 402 L478 312"/>
+    </g>
+    <g fill="hsl(255, 100%, 85%)">
+      <circle cx="286" cy="217" r="4"/><circle cx="514" cy="217" r="4"/>
+      <circle cx="286" cy="357" r="4"/><circle cx="514" cy="357" r="4"/>
+    </g>
+    <g fill="hsl(255, 10%, 13%)" stroke="hsl(255, 8%, 28%)" stroke-width="1.5">
+      <rect x="60" y="140" width="190" height="64" rx="14"/>
+      <rect x="550" y="140" width="190" height="64" rx="14"/>
+      <rect x="60" y="370" width="190" height="64" rx="14"/>
+      <rect x="550" y="370" width="190" height="64" rx="14"/>
+    </g>
+    <g fill="url(#acc)">
+      <rect x="78" y="162" width="16" height="16" rx="5"/>
+      <rect x="568" y="162" width="16" height="16" rx="5"/>
+      <rect x="78" y="392" width="16" height="16" rx="5"/>
+      <rect x="568" y="392" width="16" height="16" rx="5"/>
+    </g>
+    <g font-size="17" font-weight="600" fill="hsl(255, 24%, 96%)">
+      <text x="106" y="176">Flights</text>
+      <text x="596" y="176">Bookings</text>
+      <text x="106" y="406">Payments</text>
+      <text x="596" y="406">Notifications</text>
+    </g>
+    <g font-size="12" letter-spacing="0.8" fill="hsl(255, 5%, 55%)">
+      <text x="106" y="194">Api / Core</text>
+      <text x="596" y="194">Application</text>
+      <text x="106" y="424">Infrastructure</text>
+      <text x="596" y="424">Api / Core</text>
+    </g>
+    <rect x="310" y="245" width="180" height="84" rx="20" fill="hsl(255, 30%, 14%)" stroke="url(#acc)" stroke-width="2"/>
+    <text x="400" y="281" text-anchor="middle" font-size="19" font-weight="700" fill="hsl(255, 100%, 90%)">ASP.NET Core</text>
+    <text x="400" y="304" text-anchor="middle" font-size="14" letter-spacing="1" fill="hsl(255, 8%, 65%)">REST Services</text>
+    <text x="400" y="505" text-anchor="middle" font-size="16" letter-spacing="1.2" fill="hsl(255, 5%, 58%)">Clean Architecture &#183; EF Core &#183; SQL Server</text>
+  </g>
+</svg>

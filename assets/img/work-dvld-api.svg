@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="550" viewBox="0 0 800 550" role="img" aria-label="REST API endpoint list for the driving license service">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="hsl(255, 13%, 11%)"/>
+      <stop offset="1" stop-color="hsl(255, 15%, 5%)"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(255, 75%, 60%)"/>
+      <stop offset="1" stop-color="hsl(255, 100%, 85%)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="hsl(255, 80%, 65%)" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="hsl(255, 80%, 65%)" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="hsl(255, 8%, 26%)" stroke-width="1" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="550" fill="url(#bg)"/>
+  <rect width="800" height="550" fill="url(#grid)"/>
+  <circle cx="720" cy="60" r="230" fill="url(#glow)"/>
+  <circle cx="80" cy="520" r="170" fill="url(#glow)" opacity="0.5"/>
+  <g font-family="Segoe UI, system-ui, sans-serif">
+    <rect x="40" y="38" width="150" height="34" rx="17" fill="hsl(255, 80%, 65%)" fill-opacity="0.12" stroke="hsl(255, 80%, 65%)" stroke-opacity="0.45"/>
+    <circle cx="60" cy="55" r="4" fill="url(#acc)"/>
+    <text x="74" y="60" font-size="14" font-weight="600" letter-spacing="1.6" fill="hsl(255, 100%, 88%)">REST API</text>
+    <rect x="60" y="108" width="680" height="330" rx="20" fill="hsl(255, 10%, 13%)" stroke="hsl(255, 8%, 28%)" stroke-width="1.5"/>
+    <path d="M60 128a20 20 0 0 1 20-20h640a20 20 0 0 1 20 20v32H60z" fill="hsl(255, 10%, 17%)"/>
+    <g fill="hsl(255, 6%, 42%)"><circle cx="86" cy="134" r="5"/><circle cx="104" cy="134" r="5"/><circle cx="122" cy="134" r="5"/></g>
+    <text x="150" y="140" font-size="14" letter-spacing="1" fill="hsl(255, 6%, 58%)">swagger &#183; DVLD_API</text>
+    <rect x="90" y="190" width="620" height="36" rx="10" fill="hsl(255, 10%, 17%)"/>
+    <rect x="102" y="197" width="66" height="22" rx="8" fill="url(#acc)" opacity="1.00"/>
+    <text x="135" y="213" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="0.6" fill="hsl(255, 20%, 10%)">GET</text>
+    <text x="180" y="213" font-size="15" fill="hsl(255, 12%, 82%)">/api/People</text>
+    <rect x="672" y="203" width="26" height="10" rx="5" fill="hsl(255, 8%, 30%)"/>
+    <rect x="90" y="242" width="620" height="36" rx="10" fill="hsl(255, 10%, 17%)"/>
+    <rect x="102" y="249" width="84" height="22" rx="8" fill="url(#acc)" opacity="0.88"/>
+    <text x="144" y="265" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="0.6" fill="hsl(255, 20%, 10%)">POST</text>
+    <text x="198" y="265" font-size="15" fill="hsl(255, 12%, 82%)">/api/Applications</text>
+    <rect x="672" y="255" width="26" height="10" rx="5" fill="hsl(255, 8%, 30%)"/>
+    <rect x="90" y="294" width="620" height="36" rx="10" fill="hsl(255, 10%, 17%)"/>
+    <rect x="102" y="301" width="66" height="22" rx="8" fill="url(#acc)" opacity="0.76"/>
+    <text x="135" y="317" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="0.6" fill="hsl(255, 20%, 10%)">GET</text>
+    <text x="180" y="317" font-size="15" fill="hsl(255, 12%, 82%)">/api/Licenses/{id}</text>
+    <rect x="672" y="307" width="26" height="10" rx="5" fill="hsl(255, 8%, 30%)"/>
+    <rect x="90" y="346" width="620" height="36" rx="10" fill="hsl(255, 10%, 17%)"/>
+    <rect x="102" y="353" width="66" height="22" rx="8" fill="url(#acc)" opacity="0.64"/>
+    <text x="135" y="369" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="0.6" fill="hsl(255, 20%, 10%)">PUT</text>
+    <text x="180" y="369" font-size="15" fill="hsl(255, 12%, 82%)">/api/Tests/Schedule</text>
+    <rect x="672" y="359" width="26" height="10" rx="5" fill="hsl(255, 8%, 30%)"/>
+    <rect x="90" y="398" width="620" height="36" rx="10" fill="hsl(255, 10%, 17%)"/>
+    <rect x="102" y="405" width="92" height="22" rx="8" fill="url(#acc)" opacity="0.52"/>
+    <text x="148" y="421" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="0.6" fill="hsl(255, 20%, 10%)">DELETE</text>
+    <text x="206" y="421" font-size="15" fill="hsl(255, 12%, 82%)">/api/Users/{id}</text>
+    <rect x="672" y="411" width="26" height="10" rx="5" fill="hsl(255, 8%, 30%)"/>
+    <text x="400" y="505" text-anchor="middle" font-size="16" letter-spacing="1.2" fill="hsl(255, 5%, 58%)">ASP.NET Core &#183; Layered BL / DL &#183; SQL Server</text>
+  </g>
+</svg>

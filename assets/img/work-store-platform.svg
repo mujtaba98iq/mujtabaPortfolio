@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="550" viewBox="0 0 800 550" role="img" aria-label="Cosmetics store platform with Angular front end, .NET API and database">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="hsl(255, 13%, 11%)"/>
+      <stop offset="1" stop-color="hsl(255, 15%, 5%)"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsl(255, 75%, 60%)"/>
+      <stop offset="1" stop-color="hsl(255, 100%, 85%)"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="hsl(255, 80%, 65%)" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="hsl(255, 80%, 65%)" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="hsl(255, 8%, 26%)" stroke-width="1" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="550" fill="url(#bg)"/>
+  <rect width="800" height="550" fill="url(#grid)"/>
+  <circle cx="720" cy="60" r="230" fill="url(#glow)"/>
+  <circle cx="80" cy="520" r="170" fill="url(#glow)" opacity="0.5"/>
+  <g font-family="Segoe UI, system-ui, sans-serif">
+    <rect x="40" y="38" width="240" height="34" rx="17" fill="hsl(255, 80%, 65%)" fill-opacity="0.12" stroke="hsl(255, 80%, 65%)" stroke-opacity="0.45"/>
+    <circle cx="60" cy="55" r="4" fill="url(#acc)"/>
+    <text x="74" y="60" font-size="14" font-weight="600" letter-spacing="1.6" fill="hsl(255, 100%, 88%)">FULL-STACK PLATFORM</text>
+    <g stroke="hsl(255, 80%, 65%)" stroke-opacity="0.55" stroke-width="2" fill="none">
+      <path d="M440 240 H500" stroke-dasharray="6 6"/>
+      <path d="M620 284 V312" stroke-dasharray="6 6"/>
+    </g>
+    <rect x="60" y="120" width="380" height="290" rx="18" fill="hsl(255, 10%, 13%)" stroke="hsl(255, 8%, 28%)" stroke-width="1.5"/>
+    <path d="M60 138a18 18 0 0 1 18-18h344a18 18 0 0 1 18 18v28H60z" fill="hsl(255, 10%, 17%)"/>
+    <g fill="hsl(255, 6%, 42%)"><circle cx="84" cy="143" r="5"/><circle cx="102" cy="143" r="5"/><circle cx="120" cy="143" r="5"/></g>
+    <rect x="150" y="135" width="200" height="16" rx="8" fill="hsl(255, 8%, 24%)"/>
+    <g fill="hsl(255, 10%, 18%)" stroke="hsl(255, 8%, 26%)">
+      <rect x="86" y="192" width="150" height="94" rx="12"/>
+      <rect x="264" y="192" width="150" height="94" rx="12"/>
+      <rect x="86" y="304" width="150" height="80" rx="12"/>
+      <rect x="264" y="304" width="150" height="80" rx="12"/>
+    </g>
+    <g fill="url(#acc)" opacity="0.85">
+      <rect x="104" y="210" width="42" height="42" rx="12"/>
+      <rect x="282" y="210" width="42" height="42" rx="12"/>
+      <rect x="104" y="320" width="42" height="30" rx="10"/>
+      <rect x="282" y="320" width="42" height="30" rx="10"/>
+    </g>
+    <g fill="hsl(255, 8%, 30%)">
+      <rect x="104" y="264" width="96" height="9" rx="4.5"/>
+      <rect x="282" y="264" width="96" height="9" rx="4.5"/>
+      <rect x="104" y="362" width="80" height="9" rx="4.5"/>
+      <rect x="282" y="362" width="80" height="9" rx="4.5"/>
+    </g>
+    <rect x="500" y="196" width="240" height="88" rx="18" fill="hsl(255, 30%, 14%)" stroke="url(#acc)" stroke-width="2"/>
+    <text x="620" y="232" text-anchor="middle" font-size="19" font-weight="700" fill="hsl(255, 100%, 90%)">Store API</text>
+    <text x="620" y="256" text-anchor="middle" font-size="13" letter-spacing="0.8" fill="hsl(255, 8%, 65%)">Auth &#183; Orders &#183; Debts</text>
+    <rect x="500" y="312" width="240" height="88" rx="18" fill="hsl(255, 10%, 13%)" stroke="hsl(255, 8%, 28%)" stroke-width="1.5"/>
+    <g stroke="url(#acc)" stroke-width="2.5" fill="none">
+      <ellipse cx="546" cy="340" rx="22" ry="9"/>
+      <path d="M524 340v28c0 5 10 9 22 9s22-4 22-9v-28"/>
+    </g>
+    <text x="588" y="352" font-size="17" font-weight="600" fill="hsl(255, 24%, 96%)">SQL Server</text>
+    <text x="588" y="372" font-size="12" letter-spacing="0.8" fill="hsl(255, 5%, 55%)">EF Core migrations</text>
+    <text x="400" y="505" text-anchor="middle" font-size="16" letter-spacing="1.2" fill="hsl(255, 5%, 58%)">Angular &#183; .NET &#183; Docker &#183; Google OAuth</text>
+  </g>
+</svg>
